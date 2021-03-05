@@ -33,3 +33,7 @@ Usando a plataforma Node.js para gerenciar as dependências de frontend. Nesse s
 Insladando um loader para o webpack ler o arquivo csss como modulo
 npm install css-loader@0.28.4 style-loader@0.18.2 --save-dev
 npm install url-loader@0.5.9 file-loader@0.11.2 --save-dev
+
+ajustando a minificação do css em prod com 2 plugins
+npm install optimize-css-assets-webpack-plugin@2.0.0 --save-dev
+npm install cssnano@3.10.0 --save-dev
