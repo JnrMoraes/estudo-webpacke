@@ -13,3 +13,11 @@ Caso queria veja atraves do primiero commit para levantar o servidor é necessá
 npm start
 
 Para acessá-la, basta entrar com o endereço http://localhost:3000
+
+Foi removido o babel-cli e systemjs
+npm unistall babel-cli --save-dev
+npm unistall systemjs --save
+
+E instalado o webpack versão 3.1.0 e babel core para automatizar o processo
+npm install webpack@3.1.0 babel-core@6.25.0 --save-dev
+
