@@ -26,3 +26,6 @@ Para a minificação do bundles em foi usada um cross plataforme chamando cross-
 
 Instalação do webpack dev server. Ele faz a build do projeto
   npm install webpack-dev-server@2.5.1 --save-dev  
+
+Usando a plataforma Node.js para gerenciar as dependências de frontend. Nesse sentido, Webpack será o responsável pelo carregamento dessas dependências adicionando-as no bundle da aplicação.
+  npm install bootstrap@3.3.7 --save  
