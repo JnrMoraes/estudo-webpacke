@@ -29,3 +29,6 @@ Instalação do webpack dev server. Ele faz a build do projeto
 
 Usando a plataforma Node.js para gerenciar as dependências de frontend. Nesse sentido, Webpack será o responsável pelo carregamento dessas dependências adicionando-as no bundle da aplicação.
   npm install bootstrap@3.3.7 --save  
+
+Insladando um loader para o webpack ler o arquivo csss como modulo
+npm install css-loader@0.28.4 style-loader@0.18.2 --save-dev
