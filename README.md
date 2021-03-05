@@ -23,3 +23,6 @@ npm install webpack@3.1.0 babel-core@6.25.0 --save-dev
 
 Para a minificação do bundles em foi usada um cross plataforme chamando cross-env
   npm install cross-env@5.0.1 --save-dev
+
+Instalação do webpack dev server. Ele faz a build do projeto
+  npm install webpack-dev-server@2.5.1 --save-dev  
